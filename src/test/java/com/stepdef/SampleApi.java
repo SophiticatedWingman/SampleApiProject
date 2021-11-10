@@ -14,7 +14,6 @@ import org.apache.http.util.EntityUtils;
 import org.json.simple.parser.ParseException;
 import org.junit.Assert;
 
-import com.config.ConfigFiles;
 import com.functionalLib.CommonUtils;
 
 import cucumber.api.java.en.Then;
@@ -23,7 +22,7 @@ import cucumber.api.java.en.When;
 public class SampleApi extends CommonUtils {
 	int responseCode ;
 	String responseBody;
-	ConfigFiles files = new ConfigFiles();
+	
 	
 	
 	@When("User enters the get request Url")
